@@ -1,6 +1,6 @@
 package ru.netology.sender;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.mockito.Mockito;
 import ru.netology.entity.Country;
