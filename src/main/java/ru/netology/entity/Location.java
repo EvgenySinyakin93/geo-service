@@ -15,7 +15,8 @@ public class Location {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Location location)) return false;
+        if (!(o instanceof Location)) return false;
+        Location location = (Location) o;
         return builing == location.builing && Objects.equals(city, location.city) && country == location.country && Objects.equals(street, location.street);
     }
 
